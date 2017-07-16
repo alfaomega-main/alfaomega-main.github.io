@@ -1,1 +1,1 @@
-# alfaomega-main.github.io
+# www.alfaomega.com.pl
