@@ -1,0 +1,172 @@
+/* zerowanie wartości domyślnych */
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-family: Verdana; font-size: 10pt; color: black;
+	text-decoration: none;
+}
+
+/* instalacja brakujących czcionek */
+@font-face {
+	font-family: "Verdana";
+	src: local("Verdana"), url("/verdana.ttf") format("truetype");
+}
+
+body {
+	background-color: white;
+	background-image: url(/background.png);
+	background-position: 0px 0px;
+	background-repeat: repeat;
+}
+
+div {
+}
+
+p {
+}
+
+div#container {
+	width: 768px;
+	margin-top: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 16px;
+	background-image: url(/background_container.png);
+	background-color: white;
+}
+
+div#header {
+	width: 768px;
+	height: 256px;
+	background-image: url(/header.png);
+}
+
+div#logo {
+	width: 256px;
+	height: 128px;
+	float: left;
+}
+
+div#menu {
+	float: right;
+	text-align: center;
+}
+
+div#menu a {
+	font-weight: bold;
+	color: white;
+}
+
+div#slogan {
+	width: 256px;
+	clear: both;
+	float: left;
+}
+
+div#slogan marquee p {
+	font-weight: bold;
+	color: white;
+}
+
+div#section {
+	width: 512px;
+	float: left;
+}
+
+div#article {
+	width: 480px;
+	margin: 16px;
+}
+
+div#sidebar {
+	float: left;
+	width: 256px;
+}
+
+div#important {
+	width: 224px;
+	margin: 16px;
+	text-align: center;
+}
+
+div#navigation {
+	width: 224px;
+	margin: 16px;
+}
+
+div#branch {
+	width: 224px;
+	margin: 16px;
+}
+
+div#specification {
+	width: 224px;
+	margin: 16px;
+}
+
+div#footer {
+	clear: both;
+	width: 768px;
+	height: 19px;
+	background-image: url(/footer.png);
+//	padding-top: 32px;
+//	padding-bottom: 16px;
+	text-align: center;
+}
+
+div#footer p {
+	color: white;
+}
+
+
+
+ul {
+	list-style: none outside none;
+	list-style-image: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu li a {
+	padding: 6px 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+#menu li a:hover {
+background: transparent url("menu_hover.png") repeat-x;
+border: medium none;
+border-left: 1px solid #FFFFFF;
+border-right: 1px solid #FFFFFF;
+color: #FFFFFF;
+padding-left: 9px;
+padding-right: 9px;
+}
+
+
+
+
+/* wygląd odsyłacza na stronie */
+a:link {
+	color: red;
+}
+
+/* wygląd odwiedzonego hiperłącza */
+a:visited {
+	color: blue;
+}
+
+/* link po najechaniu myszką */
+a:hover {
+	text-decoration: underline;
+}
+
+/* link aktywny */
+a:active {
+	color: green;
+}
+
