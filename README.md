@@ -1,1 +1,0 @@
-# www.alfaomega.com.pl
